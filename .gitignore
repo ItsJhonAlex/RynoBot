@@ -1,0 +1,27 @@
+# Entorno virtual
+.venv
+
+# Archivos de configuración de Python
+*.pyc
+__pycache__/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración de Discord
+config.json
+token.txt
+.env
+
+# Archivos de caché
+.cache/
+
+# Archivos de datos
+data.json
+
+
+node_modules/
