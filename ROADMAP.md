@@ -10,12 +10,12 @@
 - [X] Crear archivo de configuración base
 
 ## 🎉 Fase 2: Sistema de Bienvenida
-- [ ] Crear evento para nuevos miembros
-- [ ] Implementar sistema de mensajes personalizables
-  - [ ] Soporte para variables (nombre, servidor, etc.)
-  - [ ] Sistema de imágenes personalizadas
-- [ ] Crear comando de configuración de bienvenida
-- [ ] Implementar sistema de almacenamiento de configuración
+- [X] Crear evento para nuevos miembros
+- [X] Implementar sistema de mensajes personalizables
+  - [X] Soporte para variables (nombre, servidor, etc.)
+  - [X] Sistema de imágenes personalizadas
+- [X] Crear comando de configuración de bienvenida
+- [X] Implementar sistema de almacenamiento de configuración
 
 ## 👑 Fase 3: Sistema de Auto-roles
 - [ ] Implementar asignación automática de roles
@@ -66,10 +66,11 @@
 - [ ] Desarrollar comandos de gestión
 
 ## 📊 Fase 8: Base de Datos
-- [ ] Configurar base de datos
-  - [ ] Esquemas para configuraciones
-  - [ ] Esquemas para tickets
-  - [ ] Esquemas para auto-roles
+- [X] Configurar base de datos
+- [X] Esquemas de mensajes de bienvenida
+- [X] Esquemas para configuraciones
+- [ ] Esquemas para tickets
+- [ ] Esquemas para auto-roles
 - [ ] Implementar sistema de respaldo
 - [ ] Crear sistema de migración
 

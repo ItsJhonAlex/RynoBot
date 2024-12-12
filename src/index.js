@@ -3,6 +3,7 @@ import { Client, Collection, GatewayIntentBits } from 'discord.js';
 import logger from './utils/logger.js';
 import { loadEvents } from './handlers/eventHandler.js';
 import { loadCommands } from './handlers/commandHandler.js';
+import { initDatabase } from './database/models/index.js';
 
 const client = new Client({
     intents: [
@@ -39,6 +40,9 @@ if (process.env.NODE_ENV === 'development') {
 // Inicializar bot
 const initializeBot = async () => {
     try {
+        // Inicializar base de datos
+        await initDatabase();
+
         // Cargar comandos y eventos
         await loadCommands(client);
         await loadEvents(client);
