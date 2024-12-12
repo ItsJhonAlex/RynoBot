@@ -19,10 +19,10 @@
 
 ## 👑 Fase 3: Sistema de Auto-roles
 - [X] Implementar asignación automática de roles
-- [ ] Crear sistema de roles por reacción
+- [X] Crear sistema de roles por reacción
   - [X] Detectar reacciones añadidas/removidas
   - [X] Gestionar múltiples mensajes de roles
-- [ ] Desarrollar comandos de configuración
+- [X] Desarrollar comandos de configuración
 - [X] Implementar sistema de verificación
 
 ## ℹ️ Fase 4: Información del Servidor
