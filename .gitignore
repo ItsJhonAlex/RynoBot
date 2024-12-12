@@ -23,5 +23,7 @@ token.txt
 # Archivos de datos
 data.json
 
+# Archivos de configuración de la base de datos
+data/database.sqlite
 
 node_modules/
