@@ -18,12 +18,12 @@
 - [X] Implementar sistema de almacenamiento de configuración
 
 ## 👑 Fase 3: Sistema de Auto-roles
-- [ ] Implementar asignación automática de roles
+- [X] Implementar asignación automática de roles
 - [ ] Crear sistema de roles por reacción
-  - [ ] Detectar reacciones añadidas/removidas
-  - [ ] Gestionar múltiples mensajes de roles
+  - [X] Detectar reacciones añadidas/removidas
+  - [X] Gestionar múltiples mensajes de roles
 - [ ] Desarrollar comandos de configuración
-- [ ] Implementar sistema de verificación
+- [X] Implementar sistema de verificación
 
 ## ℹ️ Fase 4: Información del Servidor
 - [ ] Crear comando de información general
@@ -70,7 +70,8 @@
 - [X] Esquemas de mensajes de bienvenida
 - [X] Esquemas para configuraciones
 - [ ] Esquemas para tickets
-- [ ] Esquemas para auto-roles
+- [X] Esquemas para auto-roles
+- [X] Esquemas para roles por reacción
 - [ ] Implementar sistema de respaldo
 - [ ] Crear sistema de migración
 
